@@ -20,6 +20,10 @@
 # production
 /build
 
+# turbo / vite cache
+.turbo
+.vite
+
 # misc
 .DS_Store
 *.pem
@@ -39,3 +43,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Optional: IDE - VSCode (uncomment if needed)
+# .vscode/
+# !.vscode/extensions.json
+
+# Optional: IDE - JetBrains
+# .idea/
+
+# Optional: IDE - General
+# *.swp
+# *.swo
+# *~

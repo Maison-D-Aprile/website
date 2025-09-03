@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /$
+Allow: /collections/
+Allow: /product/
+Allow: /about/
+Allow: /journal/
+Allow: /contact/
+
+Disallow: /account/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /checkout/
+Disallow: /cart/
+Disallow: /private/
+
+# Search engines that respect robots.txt can index images
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.maisondaprile.com/sitemap.xml
