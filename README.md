@@ -1,75 +1,55 @@
-                                                                              
-                                                                              
-  .    .    .    --.-- .-.  .--. .   .           .--. .    .    .--. .--. --.--.    .---.
-  |\  /|   / \     |  (   ):    :|\  |           |   :|   / \   |   )|   )  |  |    |    
-  | \/ |  /___\    |   `-. |    || \ |           |   |   /___\  |--' |--'   |  |    |--- 
-  |    | /     \   |  (   ):    ;|  \|           |   ;  /     \ |    |  \   |  |    |    
-  '    ''       `--'-- `-'  `--' '   '           '--'  '       `'    '   `--'--'---''---'
-                                                                              
-                                                                                                       
-✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦
+# 𝐌𝐚𝐢𝐬𝐨𝐧 𝐃'𝐀𝐩𝐫𝐢𝐥𝐞 - 𝐍𝐨𝐢𝐫
 
-This repository contains the architectural blueprint for the Maison D'Aprile 
-digital flagship—a progressive web application crafted on a foundation of 
-**Next.js 15.5** and **React Server Components**, engineered for an uncompromising 
-luxury experience.
+**𝐃𝐢𝐠𝐢𝐭𝐚𝐥 𝐀𝐭𝐞𝐥𝐢𝐞𝐫 & 𝐄-𝐜𝐨𝐦𝐦𝐞𝐫𝐜𝐞 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦**
 
-> *"Where digital threads weave the future of couture"*
+---
 
-✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦
+### 𝐀 𝐫𝐚𝐝𝐢𝐜𝐚𝐥 𝐟𝐮𝐬𝐢𝐨𝐧 𝐨𝐟 𝐡𝐚𝐮𝐭𝐞 𝐜𝐨𝐮𝐭𝐮𝐫𝐞 𝐚𝐧𝐝 𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐩𝐫𝐞𝐜𝐢𝐬𝐢𝐨𝐧.
 
-## ◈ 𝔈𝔵𝔭𝔢𝔯𝔦𝔢𝔫𝔠𝔢 & 𝔈𝔫𝔤𝔦𝔫𝔢𝔢𝔯𝔦𝔫𝔤
+This repository contains the architecture for the Maison D'Aprile digital flagship—a progressive web application built on a foundation of **Next.js 15.5** and **React Server Components**, engineered for an uncompromising user experience.
 
-The platform is meticulously designed to deliver a seamless, performant, and 
-immersive digital experience that mirrors the quality and detail of our 
-physical collections.
+> "The interface is our new fabric; code, our new thread."
 
--   **✦ Seamless Commerce:** A luxury shopping experience with intuitive navigation, 
-    immersive product presentation, and frictionless checkout
--   **✦ Editorial Excellence:** A dynamic canvas for seasonal collections, 
-    lookbooks, and creative narratives
--   **✦ Performance:** Instant loading and flawless interactions that match 
-    our craftsmanship standards
--   **✦ Accessibility:** An inclusive experience maintaining aesthetic excellence 
-    with universal access
+---
 
-✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦
+## 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 & 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
 
-## ◈ 𝔗𝔢𝔠𝔥𝔫𝔦𝔠𝔞𝔩 𝔓𝔯𝔬𝔳𝔢𝔫𝔞𝔫𝔠𝔢
+The platform is designed to deliver a seamless, performant, and immersive digital experience that mirrors the quality and detail of our physical collections.
+
+- **Seamless Commerce:** A luxury shopping experience with intuitive navigation, immersive product presentation, and a frictionless checkout.
+- **Editorial Excellence:** A dynamic canvas for our seasonal collections, lookbooks, and creative narratives.
+- **Performance:** Instant loading and flawless interactions that match the quality of our craftsmanship.
+- **Accessibility:** An inclusive experience that maintains our aesthetic standards while ensuring universal access.
+
+---
+
+## 𝐓𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐏𝐫𝐨𝐯𝐞𝐧𝐚𝐧𝐜𝐞
 
 Built with cutting-edge web technologies to deliver a world-class experience:
 
--   **Next.js 15.5** with App Router and React Server Components
--   **TypeScript** for type-safe development
--   **Tailwind CSS** for sophisticated styling
--   **Framer Motion** for elegant animations
--   **Zustand** for state management
--   **Vercel** for global deployment optimization
+- **Next.js 15.5** with App Router and React Server Components
+- **TypeScript** for type-safe development
+- **Tailwind CSS** for sophisticated styling
+- **Framer Motion** for elegant animations
+- **Zustand** for state management
+- **Vercel** for global deployment and performance optimization
 
-✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦
+---
 
-## ◈ 𝔇𝔢𝔭𝔩𝔬𝔶𝔪𝔢𝔫𝔱
+## 𝐃𝐞𝐩𝐥𝐨𝐲𝐦𝐞𝐧𝐭
 
-The platform is deployed on **Vercel**, ensuring optimal performance and 
-global availability.
+The platform is deployed on **Vercel**, ensuring optimal performance and global availability.
 
 **Production Environment:** [https://www.maisondaprile.com](https://www.maisondaprile.com)
 
-✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦
+---
 
-## ◈ 𝔄𝔯𝔠𝔥𝔦𝔱𝔢𝔠𝔱𝔲𝔯𝔢 𝔑𝔬𝔱𝔢𝔰
+## 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞 𝐍𝐨𝐭𝐞𝐬
 
-This front-end interfaces with our private headless commerce and content 
-management systems. API routes and server-side operations are handled through 
-secure, external services to ensure the highest standards of security and 
-performance.
+This front-end interfaces with our private headless commerce and content management systems. API routes and server-side operations are handled through secure, external services to ensure the highest standards of security and performance.
 
-The codebase emphasizes component-driven design, performance optimization, 
-and maintainability to support our evolving digital strategy.
+The codebase emphasizes component-driven design, performance optimization, and maintainability to support our evolving digital strategy.
 
-✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦
+---
 
-© 2025 𝐌𝐚𝐢𝐬𝐨𝐧 𝐃'𝐀𝐩𝐫𝐢𝐥𝐞. All rights reserved. 
-This repository contains the intellectual property of Maison D'Aprile.
-
-✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦ ✦
+© 𝟐𝟎𝟐𝟓 𝐌𝐚𝐢𝐬𝐨𝐧 𝐃'𝐀𝐩𝐫𝐢𝐥𝐞. 𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬 𝐫𝐞𝐬𝐞𝐫𝐯𝐞𝐝. 𝐓𝐡𝐢𝐬 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐜𝐨𝐧𝐭𝐚𝐢𝐧𝐬 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐥𝐥𝐞𝐜𝐭𝐮𝐚𝐥 𝐩𝐫𝐨𝐩𝐞𝐫𝐭𝐲 𝐨𝐟 𝐌𝐚𝐢𝐬𝐨𝐧 𝐃'𝐀𝐩𝐫𝐢𝐥𝐞.
