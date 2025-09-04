@@ -6,9 +6,8 @@
 
 ### 𝐀 𝐫𝐚𝐝𝐢𝐜𝐚𝐥 𝐟𝐮𝐬𝐢𝐨𝐧 𝐨𝐟 𝐡𝐚𝐮𝐭𝐞 𝐜𝐨𝐮𝐭𝐮𝐫𝐞 𝐚𝐧𝐝 𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐩𝐫𝐞𝐜𝐢𝐬𝐢𝐨𝐧.
 
-This repository contains the architecture for the Maison D'Aprile digital flagship—a progressive web application built on a foundation of **Next.js 15.5** and **React Server Components**, engineered for an uncompromising user experience.
-
-> "The interface is our new fabric; code, our new thread."
+This repository contains the architecture for the Maison D'Aprile digital flagship—a progressive web application built on a foundation of **Next.js 15.5** and **React Server 
+Components**, engineered for an uncompromising user experience.
 
 ---
 
