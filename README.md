@@ -51,4 +51,4 @@ The codebase emphasizes component-driven design, performance optimization, and m
 
 ---
 
-© 𝟐𝟎𝟐𝟓 𝐌𝐚𝐢𝐬𝐨𝐧 𝐃'𝐀𝐩𝐫𝐢𝐥𝐞. 𝐀𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬 𝐫𝐞𝐬𝐞𝐫𝐯𝐞𝐝. 𝐓𝐡𝐢𝐬 𝐫𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐜𝐨𝐧𝐭𝐚𝐢𝐧𝐬 𝐭𝐡𝐞 𝐢𝐧𝐭𝐞𝐥𝐥𝐞𝐜𝐭𝐮𝐚𝐥 𝐩𝐫𝐨𝐩𝐞𝐫𝐭𝐲 𝐨𝐟 𝐌𝐚𝐢𝐬𝐨𝐧 𝐃'𝐀𝐩𝐫𝐢𝐥𝐞.
+© 2025 Maison D'Aprile. All rights reserved. This repository contains the intellectual property of Maison D'Aprile.
