@@ -50,9 +50,9 @@
 
 @layer base {
   * {
-    @apply border border-gray-200;
+    @apply border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background/100 text-foreground/100;
   }
 }
