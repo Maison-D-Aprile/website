@@ -132,3 +132,9 @@ pids
 
 # TypeScript incremental build info
 *.tsbuildinfo
+
+# Next-intl config (optional, ignore if you want to keep i18n config private)
+.next-intl.config.js
+.next-intl.config.ts
+# Next-intl messages (optional, ignore if you want to keep translations private)
+messages/

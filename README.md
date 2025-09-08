@@ -6,7 +6,7 @@
 
 ### 𝐀 𝐫𝐚𝐝𝐢𝐜𝐚𝐥 𝐟𝐮𝐬𝐢𝐨𝐧 𝐨𝐟 𝐡𝐚𝐮𝐭𝐞 𝐜𝐨𝐮𝐭𝐮𝐫𝐞 𝐚𝐧𝐝 𝐝𝐢𝐠𝐢𝐭𝐚𝐥 𝐩𝐫𝐞𝐜𝐢𝐬𝐢𝐨𝐧.
 
-This repository contains the architecture for the Maison D'Aprile digital flagship—a progressive web application built on a foundation of **Next.js 15.5** and **React Server 
+This repository contains the architecture for the Maison D'Aprile digital flagship—a progressive web application built on a foundation of **Next.js 15.5** and **React Server
 Components**, engineered for an uncompromising user experience.
 
 ---
@@ -51,5 +51,20 @@ The codebase emphasizes component-driven design, performance optimization, and m
 
 ---
 
-
 © 2025 Maison D'Aprile. All rights reserved. This repository contains the intellectual property of Maison D'Aprile.
+
+---
+
+All files from src/stories moved to /components  
+All files from src/store moved to /features/store  
+All files from src/i18n moved to /config/i18n  
+All files from src/lib moved to /lib  
+All files from src/sanity moved to /sanity  
+All files from src/types moved to /types  
+All import paths updated accordingly
+
+---
+
+### Tailwind CSS Migration
+
+- Replaced all instances of `border-border` with `border-gray-200` in your codebase to ensure compatibility with Tailwind CSS.

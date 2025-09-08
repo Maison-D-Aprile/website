@@ -41,6 +41,9 @@ export default {
           foreground: 'hsl(var(--card-foreground))',
         },
       },
+      borderColor: {
+        border: '#e5e5e5',
+      },
       fontFamily: {
         sans: ['var(--font-sans)'],
         serif: ['var(--font-serif)'],

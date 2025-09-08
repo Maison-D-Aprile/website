@@ -24,16 +24,15 @@ export const useAppStore = create<AppState>()(
       addToCart: (item) =>
         set((state) => {
           const existingItem = state.cart.find((i) => i.id === item.id);
+          let newCart;
           if (existingItem) {
-            return {
-              cart: state.cart.map((i) =>
-                i.id === item.id
-                  ? { ...i, quantity: i.quantity + 1 }
-                  : i
-              ),
-            };
+            newCart = state.cart.map((i) =>
+              i.id === item.id ? { ...i, quantity: i.quantity + 1 } : i,
+            );
+          } else {
+            newCart = [...state.cart, { ...item, quantity: 1 }];
           }
-          return { cart: [...state.cart, { ...item, quantity: 1 }] };
+          return { cart: newCart };
         }),
       removeFromCart: (id) =>
         set((state) => ({
@@ -41,14 +40,12 @@ export const useAppStore = create<AppState>()(
         })),
       updateQuantity: (id, quantity) =>
         set((state) => ({
-          cart: state.cart.map((item) =>
-            item.id === id ? { ...item, quantity } : item
-          ),
+          cart: state.cart.map((item) => (item.id === id ? { ...item, quantity } : item)),
         })),
       clearCart: () => set({ cart: [] }),
     }),
     {
       name: 'app-storage',
-    }
-  )
+    },
+  ),
 );

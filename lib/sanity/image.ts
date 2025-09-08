@@ -1,9 +1,6 @@
 // lib/sanity/image.ts
-import createImageUrlBuilder from '@sanity/image-url';
-import { config } from './config.js';
+import imageUrlBuilder from '@sanity/image-url';
+import config from './config.js';
+import type { SanityImageSource } from '@sanity/image-url/lib/types/types';
 
-const imageBuilder = createImageUrlBuilder(config);
-
-export const urlForImage = (source: any) => {
-  return imageBuilder.image(source);
-};
+export const urlFor = (source: SanityImageSource) => imageUrlBuilder(config).image(source);
