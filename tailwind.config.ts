@@ -1,5 +1,3 @@
-import type { Config } from 'tailwindcss';
-
 export default {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        border: 'hsl(var(--border))',
+        border: '#e5e5e5', // Elegant neutral for world-class luxury feel
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
@@ -70,4 +68,4 @@ export default {
     },
   },
   plugins: [],
-} satisfies Config;
+};

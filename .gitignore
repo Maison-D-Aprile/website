@@ -110,3 +110,26 @@ pids
 *.pid.lock
 .node_repl_history
 .yarn-integrity
+# i18n build files
+/.next-i18next.config.js
+
+# ========================
+# WORLD-CLASS ADDITIONS
+# ========================
+# Example env file (should be committed, not ignored)
+# .env.example
+
+# Catch all other local config files
+*.local
+
+# Turborepo cache
+.turbo/
+
+# Vercel deployment config
+.vercel/
+
+# Next.js SWC cache
+.swc/
+
+# TypeScript incremental build info
+*.tsbuildinfo

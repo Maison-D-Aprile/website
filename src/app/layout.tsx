@@ -3,17 +3,16 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Maison Margiela - Luxury Fashion',
-  description: 'Discover the latest collections from Maison Margiela',
-  metadataBase: new URL('https://yourdomain.com'),
+  title: "Maison D'Aprile - Luxury Fashion",
+  description: "Discover the latest collections from Maison D'Aprile",
+  metadataBase: new URL('https://maisondaprile.com'),
   openGraph: {
-    title: 'Maison Margiela',
-    description: 'Luxury Fashion House',
+    title: "Maison D'Aprile",
+    description: 'Noir',
     images: ['/og-image.jpg'],
   },
   twitter: {
@@ -21,12 +20,15 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({
+export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const messages = await getMessages();
+  // You need to load messages manually, e.g. from a file or pass as props
+  // Example: import messages from '../messages/en.json';
+  // For now, use an empty object as a placeholder
+  const messages = {};
 
   return (
     <html lang="en" suppressHydrationWarning>

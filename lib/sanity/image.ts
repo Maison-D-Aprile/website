@@ -1,6 +1,6 @@
 // lib/sanity/image.ts
 import createImageUrlBuilder from '@sanity/image-url';
-import { config } from './config';
+import { config } from './config.js';
 
 const imageBuilder = createImageUrlBuilder(config);
 
