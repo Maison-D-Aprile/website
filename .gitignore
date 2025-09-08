@@ -136,5 +136,5 @@ pids
 # Next-intl config (optional, ignore if you want to keep i18n config private)
 .next-intl.config.js
 .next-intl.config.ts
-# Next-intl messages (optional, ignore if you want to keep translations private)
-messages/
+# Next-intl messages (do NOT ignore if you want translations deployed)
+# messages/
