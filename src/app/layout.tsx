@@ -1,22 +1,22 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import { Providers } from './providers';
-import { NextIntlClientProvider } from 'next-intl';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import { Providers } from "./providers";
+import { NextIntlClientProvider } from "next-intl";
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Maison D'Aprile - Luxury Fashion",
+  title: "Maison D'Aprile - Noir",
   description: "Discover the latest collections from Maison D'Aprile",
-  metadataBase: new URL('https://maisondaprile.com'),
+  metadataBase: new URL("https://maisondaprile.com"),
   openGraph: {
     title: "Maison D'Aprile",
-    description: 'Noir',
-    images: ['/og-image.jpg'],
+    description: "Noir",
+    images: ["/og-image.jpg"],
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
   },
 };
 
